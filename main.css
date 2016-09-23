@@ -1,0 +1,97 @@
+.dark-theme{
+  background-color: #323232;
+  color: white;
+}
+.light-theme{
+  background-color: NULL;
+  color: NULL;
+}
+
+.vertical-main{
+  box-shadow: 0px 2px 1px #DCDCDC;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  border-width: 1px 1px 1px 1px;
+  width:450px;
+  height:375px;
+}
+
+.vertical-image{
+  width:100%; /*width of your image*/
+  height:60%; /*height of your image*/
+  background-image:url('js.jpg');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+
+.vertical-text{
+  margin: 15px 15px 15px 15px;
+  font-family: Trasandina Regular, Decima Round, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.vertical-links{
+  margin-top: 25px;
+}
+
+.vertical-switch{
+  cursor:pointer;
+  color: #919191;
+  margin: 15px 0px 0px 0px;
+  display: inline-block;
+}
+
+.vertical-color-switch{
+  cursor:pointer;
+  color: #919191;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.horizontal-main{
+  box-shadow: 0px 2px 1px #DCDCDC;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  border-width: 1px 1px 1px 1px;
+  width:450px;
+  height:180px;
+}
+
+.horizontal-image{
+  width:40%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('js.jpg');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  float: left;
+}
+
+.horizontal-text{
+  margin-left: 200px;
+  font-family: Trasandina Regular, Decima Round, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.horizontal-links{
+  margin-top: 40px;
+  margin-right: 20px;
+  float: right;
+  font-size: 0.9em;
+}
+
+.horizontal-switch{
+  cursor:pointer;
+  color: #919191;
+
+}
+.horizontal-color-switch{
+  cursor:pointer;
+  color: #919191;
+  margin-left: 25px;
+}
