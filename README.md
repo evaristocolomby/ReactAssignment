@@ -7,7 +7,7 @@ This app was build with NPM, Babel and Webpack.
 ## How to use
 To run this project make sure you have NPM installed.
 
-This app uses React, NPM and Webpack.
+This app uses React, NPM, Build and Webpack.
 
 Make sure you have all the components from the package.json file correctly configured in this directory
 
