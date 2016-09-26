@@ -2,6 +2,7 @@
   background-color: #323232;
   color: white;
 }
+
 .light-theme{
   background-color: NULL;
   color: NULL;
@@ -20,9 +21,14 @@
 .vertical-image{
   width:100%; /*width of your image*/
   height:60%; /*height of your image*/
-  background-image:url('js.jpg');
+  background-image:url('../img/js600x327.jpg');
   margin:0; /* If you want no margin */
   padding:0; /*if your want to padding */
+  background-repeat: no-repeat;
+  background-position: left top;
+  -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
 }
 
 .vertical-text{
@@ -64,10 +70,15 @@
 .horizontal-image{
   width:40%; /*width of your image*/
   height:100%; /*height of your image*/
-  background-image:url('js.jpg');
+  background-image:url('../img/js500x381.jpg');
   margin:0; /* If you want no margin */
   padding:0; /*if your want to padding */
   float: left;
+  background-repeat: no-repeat;
+  background-position: left top;
+  -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
 }
 
 .horizontal-text{
@@ -79,7 +90,7 @@
 }
 
 .horizontal-links{
-  margin-top: 40px;
+  margin-top: 15px;
   margin-right: 20px;
   float: right;
   font-size: 0.9em;
